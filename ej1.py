@@ -14,4 +14,4 @@ try:
 
 except ValueError:
     print(
-        f"Error: La entrada '{alt}' no es un número entero válido.")
+        f"Error: La entrada '{alt}' no es un numero entero valido.")

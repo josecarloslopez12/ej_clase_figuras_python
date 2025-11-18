@@ -1,11 +1,11 @@
 try:
     ancho_maximo = int(input("Introduce el ancho de la figura: "))
 except ValueError:
-    print("Error: Por favor, introduce un número entero válido.")
+    print("Error: Por favor, introduce un numero entero valido.")
     exit()
 
 if ancho_maximo <= 0:
-    print("Error: El ancho máximo debe ser un número positivo.")
+    print("Error: El ancho maximo debe ser un numero positivo.")
     exit()
 
 altura_total = (ancho_maximo * 2) - 1
